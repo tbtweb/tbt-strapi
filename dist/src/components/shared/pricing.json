@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_shared_pricings",
+    "info": {
+        "displayName": "pricing"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "pricePerAdult": {
+            "type": "biginteger"
+        },
+        "totalPrice": {
+            "type": "biginteger"
+        },
+        "actualPricePerAdult": {
+            "type": "biginteger"
+        }
+    },
+    "config": {}
+}
