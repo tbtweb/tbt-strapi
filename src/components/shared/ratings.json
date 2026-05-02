@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_ratings",
+  "info": {
+    "displayName": "ratings"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "integer"
+    },
+    "totalRatings": {
+      "type": "biginteger"
+    }
+  },
+  "config": {}
+}
