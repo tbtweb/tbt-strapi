@@ -32,6 +32,26 @@
     "tag": {
       "type": "string"
     },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "blogContent": {
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
