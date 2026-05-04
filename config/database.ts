@@ -58,7 +58,6 @@ const config = ({
     },
     sqlite: {
       connection: {
-        // filename: path.join(__dirname, '..', '..', env('DATABASE_FILENAME', '.tmp/data.db')),
         filename: env("DATABASE_FILENAME", "/home/ubuntu/strapi-db/data.db"),
       },
       useNullAsDefault: true,
