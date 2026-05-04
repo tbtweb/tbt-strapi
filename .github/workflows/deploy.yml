@@ -29,10 +29,11 @@ jobs:
           tar -czf app.tar.gz \
             package.json \
             yarn.lock \
-            build \
             config \
             src \
-            public
+            public \
+            $( [ -d dist ] && echo dist )
+
       - name: Copy to EC2
         uses: appleboy/scp-action@v0.1.7
         with:
