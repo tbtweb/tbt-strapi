@@ -32,7 +32,7 @@ export interface SharedItineraryDay extends Struct.ComponentSchema {
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
-          preset: 'defaultMarkdown';
+          preset: 'defaultHtml';
         }
       >;
     title: Schema.Attribute.String;
