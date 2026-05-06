@@ -16,6 +16,7 @@ export interface SharedHotel extends Struct.ComponentSchema {
     displayName: 'hotel';
   };
   attributes: {
+    location: Schema.Attribute.String;
     name: Schema.Attribute.String;
     starCategory: Schema.Attribute.String;
   };
@@ -58,7 +59,7 @@ export interface SharedRatings extends Struct.ComponentSchema {
     displayName: 'ratings';
   };
   attributes: {
-    start: Schema.Attribute.Integer;
+    star: Schema.Attribute.Decimal;
     totalRatings: Schema.Attribute.BigInteger;
   };
 }

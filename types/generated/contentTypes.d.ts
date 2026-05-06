@@ -547,7 +547,7 @@ export interface ApiPackagePackage extends Struct.CollectionTypeSchema {
     price: Schema.Attribute.Component<'shared.pricing', false>;
     publishedAt: Schema.Attribute.DateTime;
     ratings: Schema.Attribute.Component<'shared.ratings', false>;
-    shortDescription: Schema.Attribute.String;
+    shortDescription: Schema.Attribute.Text;
     slug: Schema.Attribute.String;
     tag: Schema.Attribute.String;
     termsAndConditions: Schema.Attribute.RichText &

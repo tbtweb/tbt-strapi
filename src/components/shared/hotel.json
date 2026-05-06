@@ -8,6 +8,9 @@
     "name": {
       "type": "string"
     },
+    "location": {
+      "type": "string"
+    },
     "starCategory": {
       "type": "string"
     }

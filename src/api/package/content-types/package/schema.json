@@ -21,7 +21,7 @@
       "type": "string"
     },
     "shortDescription": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"

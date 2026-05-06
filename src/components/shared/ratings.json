@@ -5,8 +5,8 @@
   },
   "options": {},
   "attributes": {
-    "start": {
-      "type": "integer"
+    "star": {
+      "type": "decimal"
     },
     "totalRatings": {
       "type": "biginteger"
